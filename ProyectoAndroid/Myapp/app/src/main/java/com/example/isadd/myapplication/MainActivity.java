@@ -4,14 +4,27 @@ import android.app.Activity;
 import android.content.Intent;
 import android.os.Bundle;
 import android.provider.MediaStore;
+import android.util.Log;
 import android.view.Menu;
 import android.view.View;
 import android.view.View.OnClickListener;
 import android.widget.Button;
 
+import org.opencv.android.OpenCVLoader;
+
 public class MainActivity extends Activity {
     Button btn;
 
+    private static String TAG = "MainActivity";
+
+    static {
+        if (OpenCVLoader.initDebug()) {
+            Log.i(TAG, "Opencv loaded sucesfully");
+
+        }else {
+            Log.i(TAG, "Open cv dont loaded");
+        }
+    }
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
