@@ -1,0 +1,19 @@
+#Wed Mar 07 13:40:37 CET 2018
+path.1=classes.dex
+path.0=classes.dex
+renamed.5=classes6.dex
+renamed.4=classes5.dex
+renamed.3=classes4.dex
+renamed.2=classes3.dex
+renamed.1=classes2.dex
+renamed.0=classes.dex
+base.5=C\:\\Users\\IsaDD\\Documents\\GitHub\\TFG\\ProyectoAndroid\\Myapp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\356
+base.4=C\:\\Users\\IsaDD\\Documents\\GitHub\\TFG\\ProyectoAndroid\\Myapp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\359
+base.3=C\:\\Users\\IsaDD\\Documents\\GitHub\\TFG\\ProyectoAndroid\\Myapp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\354
+base.2=C\:\\Users\\IsaDD\\Documents\\GitHub\\TFG\\ProyectoAndroid\\Myapp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\357
+base.1=C\:\\Users\\IsaDD\\Documents\\GitHub\\TFG\\ProyectoAndroid\\Myapp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\355
+base.0=C\:\\Users\\IsaDD\\Documents\\GitHub\\TFG\\ProyectoAndroid\\Myapp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\358
+path.5=classes.dex
+path.4=classes.dex
+path.3=classes.dex
+path.2=classes.dex
