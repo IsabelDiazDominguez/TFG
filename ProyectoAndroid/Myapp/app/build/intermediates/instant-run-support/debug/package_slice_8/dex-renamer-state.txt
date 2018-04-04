@@ -1,4 +1,0 @@
-#Wed Mar 07 13:40:32 CET 2018
-base.0=C\:\\Users\\IsaDD\\Documents\\GitHub\\TFG\\ProyectoAndroid\\Myapp\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\351
-path.0=classes.dex
-renamed.0=classes.dex

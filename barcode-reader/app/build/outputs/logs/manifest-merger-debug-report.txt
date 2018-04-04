@@ -1,0 +1,220 @@
+-- Merging decision tree log ---
+manifest
+ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:1-39:12
+MERGED from [com.android.support:design:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\78547fa46c6ff7d7e39782617f7ac8af\AndroidManifest.xml:17:1-31:12
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-vision-9.4.0.aar\99a0e007d69cbce368b9c45a22260d5d\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-base-9.4.0.aar\a3f4c36768200a5540dd2702fa56b925\AndroidManifest.xml:16:1-24:12
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.4.0.aar\6f1f0dea829dea9e42f563c5358cda84\AndroidManifest.xml:2:1-6:12
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.4.0.aar\70c08dc7e493e1b738ef5dfb3564f5b7\AndroidManifest.xml:16:1-26:12
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\2ae458285b1b67c23ae60d825a3239dc\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:transition:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\e49cbdafca8bddd114957cda2b290873\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\4de1cb6e2ca1033a581482058b0e7f2e\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\2b2a7dcee6f8ee8cc4c56fd0ea8537bd\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\36502d6d961b2a0b3b37f31a6d150170\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\e2805e571f1e617a263f8675d7a0a60f\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\a42ffc607ea8a768c554a54b12543c35\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\d3b23944900c96c4f64896d236a3078a\AndroidManifest.xml:17:1-28:12
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\e5e67e257189c82088b9c8342587915d\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\160d3a447d87c9fdbdd1e26a26cfe190\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\93ee93d8a3d5a05a42cbf0f38f2cf5fc\AndroidManifest.xml:17:1-31:12
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\multidex-1.0.1.aar\a5381cf438b765ada2d996af6fc81955\AndroidManifest.xml:16:1-19:12
+INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:1-39:12
+	package
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:3:5-66
+		INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:1-39:12
+		INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml
+	android:versionCode
+		INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:1-39:12
+		INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:11-69
+	android:installLocation
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:4:5-35
+uses-feature#android.hardware.camera
+ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:6:5-60
+	android:name
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:6:19-57
+uses-permission#android.permission.CAMERA
+ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:8:5-65
+	android:name
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:8:22-62
+application
+ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:10:5-37:19
+MERGED from [com.android.support:design:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\78547fa46c6ff7d7e39782617f7ac8af\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:design:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\78547fa46c6ff7d7e39782617f7ac8af\AndroidManifest.xml:25:5-29:19
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-vision-9.4.0.aar\99a0e007d69cbce368b9c45a22260d5d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-vision-9.4.0.aar\99a0e007d69cbce368b9c45a22260d5d\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-base-9.4.0.aar\a3f4c36768200a5540dd2702fa56b925\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-base-9.4.0.aar\a3f4c36768200a5540dd2702fa56b925\AndroidManifest.xml:19:5-23:19
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.4.0.aar\6f1f0dea829dea9e42f563c5358cda84\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.4.0.aar\6f1f0dea829dea9e42f563c5358cda84\AndroidManifest.xml:5:5-20
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.4.0.aar\70c08dc7e493e1b738ef5dfb3564f5b7\AndroidManifest.xml:20:5-24:19
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.4.0.aar\70c08dc7e493e1b738ef5dfb3564f5b7\AndroidManifest.xml:20:5-24:19
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\2ae458285b1b67c23ae60d825a3239dc\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\2ae458285b1b67c23ae60d825a3239dc\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:transition:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\e49cbdafca8bddd114957cda2b290873\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:transition:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\e49cbdafca8bddd114957cda2b290873\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\4de1cb6e2ca1033a581482058b0e7f2e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\4de1cb6e2ca1033a581482058b0e7f2e\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\2b2a7dcee6f8ee8cc4c56fd0ea8537bd\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\2b2a7dcee6f8ee8cc4c56fd0ea8537bd\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\36502d6d961b2a0b3b37f31a6d150170\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\36502d6d961b2a0b3b37f31a6d150170\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\e2805e571f1e617a263f8675d7a0a60f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\e2805e571f1e617a263f8675d7a0a60f\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\a42ffc607ea8a768c554a54b12543c35\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\a42ffc607ea8a768c554a54b12543c35\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\d3b23944900c96c4f64896d236a3078a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\d3b23944900c96c4f64896d236a3078a\AndroidManifest.xml:22:5-26:19
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\e5e67e257189c82088b9c8342587915d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\e5e67e257189c82088b9c8342587915d\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\160d3a447d87c9fdbdd1e26a26cfe190\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\160d3a447d87c9fdbdd1e26a26cfe190\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\93ee93d8a3d5a05a42cbf0f38f2cf5fc\AndroidManifest.xml:25:5-29:19
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\93ee93d8a3d5a05a42cbf0f38f2cf5fc\AndroidManifest.xml:25:5-29:19
+	android:supportsRtl
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:16:9-37
+	android:label
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:15:9-40
+	android:hardwareAccelerated
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:13:9-43
+	android:fullBackupContent
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:12:9-42
+	android:icon
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:14:9-38
+	android:allowBackup
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:11:9-35
+	android:theme
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:17:9-47
+meta-data#com.google.android.gms.version
+ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:18:9-20:69
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.4.0.aar\70c08dc7e493e1b738ef5dfb3564f5b7\AndroidManifest.xml:21:9-23:69
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.4.0.aar\70c08dc7e493e1b738ef5dfb3564f5b7\AndroidManifest.xml:21:9-23:69
+	android:value
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:20:13-66
+	android:name
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:19:13-58
+meta-data#com.google.android.gms.vision.DEPENDENCIES
+ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:21:9-23:39
+	android:value
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:23:13-36
+	android:name
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:22:13-70
+activity#com.google.android.gms.samples.vision.barcodereader.MainActivity
+ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:25:9-33:20
+	android:label
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:27:13-56
+	android:name
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:26:13-41
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:28:13-32:29
+action#android.intent.action.MAIN
+ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:29:17-69
+	android:name
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:29:25-66
+category#android.intent.category.LAUNCHER
+ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:31:17-77
+	android:name
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:31:27-74
+activity#com.google.android.gms.samples.vision.barcodereader.BarcodeCaptureActivity
+ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:35:9-36:43
+	android:label
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:36:13-41
+	android:name
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:35:19-57
+uses-sdk
+INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml
+MERGED from [com.android.support:design:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\78547fa46c6ff7d7e39782617f7ac8af\AndroidManifest.xml:21:5-23:62
+MERGED from [com.android.support:design:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\78547fa46c6ff7d7e39782617f7ac8af\AndroidManifest.xml:21:5-23:62
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-vision-9.4.0.aar\99a0e007d69cbce368b9c45a22260d5d\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-vision:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-vision-9.4.0.aar\99a0e007d69cbce368b9c45a22260d5d\AndroidManifest.xml:4:5-42
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-base-9.4.0.aar\a3f4c36768200a5540dd2702fa56b925\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-base-9.4.0.aar\a3f4c36768200a5540dd2702fa56b925\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.4.0.aar\6f1f0dea829dea9e42f563c5358cda84\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-tasks:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-tasks-9.4.0.aar\6f1f0dea829dea9e42f563c5358cda84\AndroidManifest.xml:4:5-43
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.4.0.aar\70c08dc7e493e1b738ef5dfb3564f5b7\AndroidManifest.xml:18:5-42
+MERGED from [com.google.android.gms:play-services-basement:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-basement-9.4.0.aar\70c08dc7e493e1b738ef5dfb3564f5b7\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\2ae458285b1b67c23ae60d825a3239dc\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\2ae458285b1b67c23ae60d825a3239dc\AndroidManifest.xml:21:5-23:78
+MERGED from [com.android.support:transition:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\e49cbdafca8bddd114957cda2b290873\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\e49cbdafca8bddd114957cda2b290873\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\4de1cb6e2ca1033a581482058b0e7f2e\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\4de1cb6e2ca1033a581482058b0e7f2e\AndroidManifest.xml:21:5-23:54
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\2b2a7dcee6f8ee8cc4c56fd0ea8537bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\2b2a7dcee6f8ee8cc4c56fd0ea8537bd\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\36502d6d961b2a0b3b37f31a6d150170\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\36502d6d961b2a0b3b37f31a6d150170\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\e2805e571f1e617a263f8675d7a0a60f\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\e2805e571f1e617a263f8675d7a0a60f\AndroidManifest.xml:21:5-23:60
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\a42ffc607ea8a768c554a54b12543c35\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\a42ffc607ea8a768c554a54b12543c35\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\d3b23944900c96c4f64896d236a3078a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\d3b23944900c96c4f64896d236a3078a\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\e5e67e257189c82088b9c8342587915d\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\e5e67e257189c82088b9c8342587915d\AndroidManifest.xml:21:5-23:63
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\160d3a447d87c9fdbdd1e26a26cfe190\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\160d3a447d87c9fdbdd1e26a26cfe190\AndroidManifest.xml:21:5-23:61
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\93ee93d8a3d5a05a42cbf0f38f2cf5fc\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\93ee93d8a3d5a05a42cbf0f38f2cf5fc\AndroidManifest.xml:21:5-23:58
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\multidex-1.0.1.aar\a5381cf438b765ada2d996af6fc81955\AndroidManifest.xml:18:5-42
+MERGED from [com.android.support:multidex:1.0.1] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\multidex-1.0.1.aar\a5381cf438b765ada2d996af6fc81955\AndroidManifest.xml:18:5-42
+INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml
+INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml
+	tools:overrideLibrary
+		ADDED from [com.android.support:design:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\78547fa46c6ff7d7e39782617f7ac8af\AndroidManifest.xml:23:9-59
+	android:targetSdkVersion
+		INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml
+		INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml
+meta-data#android.support.VERSION
+ADDED from [com.android.support:design:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\78547fa46c6ff7d7e39782617f7ac8af\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\2ae458285b1b67c23ae60d825a3239dc\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:appcompat-v7:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\appcompat-v7-26.0.0.aar\2ae458285b1b67c23ae60d825a3239dc\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:transition:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\e49cbdafca8bddd114957cda2b290873\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:transition:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\transition-26.0.0.aar\e49cbdafca8bddd114957cda2b290873\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\4de1cb6e2ca1033a581482058b0e7f2e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-v4:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-v4-26.0.0.aar\4de1cb6e2ca1033a581482058b0e7f2e\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\2b2a7dcee6f8ee8cc4c56fd0ea8537bd\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:recyclerview-v7:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\recyclerview-v7-26.0.0.aar\2b2a7dcee6f8ee8cc4c56fd0ea8537bd\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\36502d6d961b2a0b3b37f31a6d150170\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:animated-vector-drawable:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\animated-vector-drawable-26.0.0.aar\36502d6d961b2a0b3b37f31a6d150170\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\e2805e571f1e617a263f8675d7a0a60f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-fragment:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-fragment-26.0.0.aar\e2805e571f1e617a263f8675d7a0a60f\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\a42ffc607ea8a768c554a54b12543c35\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-ui:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-core-ui-26.0.0.aar\a42ffc607ea8a768c554a54b12543c35\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\d3b23944900c96c4f64896d236a3078a\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-vector-drawable:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-vector-drawable-26.0.0.aar\d3b23944900c96c4f64896d236a3078a\AndroidManifest.xml:23:9-25:38
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\e5e67e257189c82088b9c8342587915d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-media-compat-26.0.0.aar\e5e67e257189c82088b9c8342587915d\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\160d3a447d87c9fdbdd1e26a26cfe190\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\160d3a447d87c9fdbdd1e26a26cfe190\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\93ee93d8a3d5a05a42cbf0f38f2cf5fc\AndroidManifest.xml:26:9-28:38
+MERGED from [com.android.support:support-compat:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\93ee93d8a3d5a05a42cbf0f38f2cf5fc\AndroidManifest.xml:26:9-28:38
+	android:value
+		ADDED from [com.android.support:design:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\78547fa46c6ff7d7e39782617f7ac8af\AndroidManifest.xml:28:13-35
+	android:name
+		ADDED from [com.android.support:design:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\78547fa46c6ff7d7e39782617f7ac8af\AndroidManifest.xml:27:13-51
+activity#com.google.android.gms.common.api.GoogleApiActivity
+ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-base-9.4.0.aar\a3f4c36768200a5540dd2702fa56b925\AndroidManifest.xml:20:9-22:45
+	android:exported
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-base-9.4.0.aar\a3f4c36768200a5540dd2702fa56b925\AndroidManifest.xml:22:19-43
+	android:theme
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-base-9.4.0.aar\a3f4c36768200a5540dd2702fa56b925\AndroidManifest.xml:21:19-78
+	android:name
+		ADDED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-base-9.4.0.aar\a3f4c36768200a5540dd2702fa56b925\AndroidManifest.xml:20:19-85
