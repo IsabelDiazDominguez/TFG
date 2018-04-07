@@ -25,6 +25,7 @@ import android.content.DialogInterface;
 import android.content.Intent;
 import android.content.IntentFilter;
 import android.content.pm.PackageManager;
+import android.graphics.RectF;
 import android.hardware.Camera;
 import android.os.Build;
 import android.os.Bundle;
@@ -51,6 +52,10 @@ import com.google.android.gms.vision.barcode.Barcode;
 import com.google.android.gms.vision.barcode.BarcodeDetector;
 
 import java.io.IOException;
+import java.util.Date;
+import java.util.List;
+import java.util.Timer;
+import java.util.TimerTask;
 
 /**
  * Activity for the multi-tracker app.  This app detects barcodes and displays the value with the
@@ -59,6 +64,7 @@ import java.io.IOException;
  */
 public final class BarcodeCaptureActivity extends AppCompatActivity implements BarcodeGraphicTracker.BarcodeUpdateListener {
     private static final String TAG = "Barcode-reader";
+
 
     // intent request code to handle updating play services if needed.
     private static final int RC_HANDLE_GMS = 9001;
@@ -79,12 +85,12 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
     private ScaleGestureDetector scaleGestureDetector;
     private GestureDetector gestureDetector;
 
+    private MainActivity main = new MainActivity();
+
     private Context mContext;
 
     ///TTSListener tts;
     /// private View view;
-
-
 
     /**
      * Initializes the UI and creates the detector pipeline.
@@ -105,7 +111,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
 
 
         // read parameters from the intent used to launch the activity.
-        boolean autoFocus = getIntent().getBooleanExtra(AutoFocus, false);
+        boolean autoFocus = getIntent().getBooleanExtra(AutoFocus, true);
         boolean useFlash = getIntent().getBooleanExtra(UseFlash, false);
 
         // Check for the camera permission before accessing the camera.  If the
@@ -225,6 +231,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
                     autoFocus ? Camera.Parameters.FOCUS_MODE_CONTINUOUS_PICTURE : null);
         }
 
+        /*Estará desactivado*/
         mCameraSource = builder
                 .setFlashMode(useFlash ? Camera.Parameters.FLASH_MODE_TORCH : null)
                 .build();
@@ -291,7 +298,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
         if (grantResults.length != 0 && grantResults[0] == PackageManager.PERMISSION_GRANTED) {
             Log.d(TAG, "Camera permission granted - initialize the camera source");
             // we have permission, so create the camerasource
-            boolean autoFocus = getIntent().getBooleanExtra(AutoFocus,false);
+            boolean autoFocus = getIntent().getBooleanExtra(AutoFocus,true);
             boolean useFlash = getIntent().getBooleanExtra(UseFlash, false);
             createCameraSource(autoFocus, useFlash);
             return;
@@ -349,6 +356,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
     private boolean onTap(float rawX, float rawY) {
         // Find tap point in preview frame coordinates.
         int[] location = new int[2];
+
         mGraphicOverlay.getLocationOnScreen(location);
         float x = (rawX - location[0]) / mGraphicOverlay.getWidthScaleFactor();
         float y = (rawY - location[1]) / mGraphicOverlay.getHeightScaleFactor();
@@ -358,6 +366,7 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
         float bestDistance = Float.MAX_VALUE;
         for (BarcodeGraphic graphic : mGraphicOverlay.getGraphics()) {
             Barcode barcode = graphic.getBarcode();
+            Speech.Talk(mContext, graphic.getDistance());
             if (barcode.getBoundingBox().contains((int) x, (int) y)) {
                 // Exact hit, no need to keep looking.
                 best = barcode;
@@ -443,11 +452,62 @@ public final class BarcodeCaptureActivity extends AppCompatActivity implements B
         }
     }
 
+    public Context getmContext() {
+        return mContext;
+    }
+
+    //do something with barcode data returned
     @Override
     public void onBarcodeDetected(Barcode barcode) {
-        //do something with barcode data returned
-        String text = barcode.rawValue;
-        //tts.speak(text);
-        //view.announceForAccessibility(text);
+        String text = "";
+        Speech.Talk(getmContext(), text);
+        text = barcode.rawValue;
+
+
+        RectF rect = new RectF(barcode.getBoundingBox());barcode.getBoundingBox();
+        float Left = rect.left;
+        float Right = rect.right;
+        float Top = rect.top;
+        float Bottom = rect.bottom;
+
+        float rl = ( Right - Left );
+        float tb = (Bottom - Top);
+        float medium_value = ( rl + tb ) / 2;
+
+        double sizeQR= 11.60;
+        int dpi = 240;
+
+        //Calc
+        Log.d("PIXELS", String.valueOf(medium_value));
+        double size_distance = (medium_value / dpi ) * 2.54;
+
+        //QR 15*15
+
+        text += " ";
+
+        if (size_distance < 1 ) {
+            text += "Aproximado a 3 metros ";
+        }
+        if (size_distance >1 && size_distance < 2) {
+            text += "Aproximado a 2 metros ";
+        }
+        if (size_distance >= 2) {
+            text +="Menos de 1 metro ";
+        }
+
+
+        //text = "Size " + String.valueOf(size_distance);
+
+        if (rect.top < 400) {
+            text += "\n Arriba ";
+        }else {text += "\n Abajo "; }
+
+        if (rect.right<300) {
+            text += "\n Derecha ";
+        } else { text += "\n Izquierda ";}
+
+
+        Speech.Talk(getmContext(), text);
+
     }
 }

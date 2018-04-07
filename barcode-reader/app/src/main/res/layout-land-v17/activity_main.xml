@@ -45,13 +45,4 @@
         android:layout_marginBottom="77dp"
         android:checked="false" />
 
-    <Switch
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:text="@string/use_flash"
-        android:id="@+id/use_flash"
-        android:layout_alignTop="@+id/auto_focus"
-        android:layout_alignEnd="@+id/barcode_value"
-        android:checked="false" />
-
 </RelativeLayout>

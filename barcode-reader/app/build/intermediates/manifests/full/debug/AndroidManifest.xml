@@ -42,6 +42,7 @@
         <activity
             android:name="com.google.android.gms.samples.vision.barcodereader.BarcodeCaptureActivity"
             android:label="Read Barcode" />
+        <activity android:name="com.google.android.gms.samples.vision.barcodereader.BarcodeGraphicInterface" />
 
         <meta-data
             android:name="android.support.VERSION"

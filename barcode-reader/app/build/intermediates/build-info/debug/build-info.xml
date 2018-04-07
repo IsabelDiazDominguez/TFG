@@ -7,22 +7,22 @@
     format="10"
     ir-eligibility="COMPATIBLE"
     plugin-version="3.1.0"
-    timestamp="1522851530662"
+    timestamp="1523133074367"
     token="-5812073477366867688"
     verifier="COLD_SWAP_REQUESTED" >
 
     <task
         name="javac"
-        duration="0" />
+        duration="1988" />
     <task
         name="instant-run-dex"
         duration="0" />
     <task
         name="instant-run-transform"
-        duration="18" />
+        duration="29" />
     <task
         name="verifier"
-        duration="14" />
+        duration="12" />
 
     <artifact
         location="C:\Users\IsaDD\AndroidApp\barcode-reader\app\build\intermediates\split-apk\debug\dep\dependencies.apk"
@@ -64,7 +64,7 @@
     <build
         build-mode="FULL"
         ir-eligibility="COMPATIBLE"
-        timestamp="1522851530662"
+        timestamp="1523133074367"
         verifier="COLD_SWAP_REQUESTED" >
         <artifact
             location="C:\Users\IsaDD\AndroidApp\barcode-reader\app\build\intermediates\split-apk\debug\dep\dependencies.apk"

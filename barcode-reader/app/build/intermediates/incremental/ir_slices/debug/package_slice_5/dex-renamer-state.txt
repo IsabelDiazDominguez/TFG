@@ -1,4 +1,4 @@
-#Wed Apr 04 16:19:31 CEST 2018
-base.0=C\:\\Users\\IsaDD\\AndroidApp\\barcode-reader\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\201
+#Sat Apr 07 22:31:54 CEST 2018
+base.0=C\:\\Users\\IsaDD\\AndroidApp\\barcode-reader\\app\\build\\intermediates\\transforms\\dexMerger\\debug\\96
 path.0=classes.dex
 renamed.0=classes.dex

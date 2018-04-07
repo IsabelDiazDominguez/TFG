@@ -15,8 +15,6 @@
  */
 package com.google.android.gms.samples.vision.barcodereader.ui.camera;
 
-import android.util.Log;
-
 import android.content.Context;
 import android.graphics.Canvas;
 import android.util.AttributeSet;
@@ -64,6 +62,7 @@ public class GraphicOverlay<T extends GraphicOverlay.Graphic> extends View {
     public static abstract class Graphic {
         private GraphicOverlay mOverlay;
 
+
         public Graphic(GraphicOverlay overlay) {
             mOverlay = overlay;
         }
@@ -106,7 +105,6 @@ public class GraphicOverlay<T extends GraphicOverlay.Graphic> extends View {
             if (mOverlay.mFacing == CameraSource.CAMERA_FACING_FRONT) {
                 return mOverlay.getWidth() - scaleX(x);
             } else {
-                //Log.d("Width", "Go for else");
                 //Normally is scale
                 return scaleX(x);
             }

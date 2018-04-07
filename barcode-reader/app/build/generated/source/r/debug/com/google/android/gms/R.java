@@ -95,8 +95,8 @@ public final class R {
         public static final int standard = 0x7f080099;
         public static final int text = 0x7f0800a0;
         public static final int text2 = 0x7f0800a1;
-        public static final int wide = 0x7f0800ba;
-        public static final int wrap_content = 0x7f0800bc;
+        public static final int wide = 0x7f0800b9;
+        public static final int wrap_content = 0x7f0800bb;
     }
     public static final class integer {
         public static final int google_play_services_version = 0x7f090007;

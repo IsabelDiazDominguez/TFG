@@ -19,10 +19,8 @@ import android.graphics.Canvas;
 import android.graphics.Color;
 import android.graphics.Paint;
 import android.graphics.RectF;
-
-
 import android.util.Log;
-import android.view.View;
+
 
 import com.google.android.gms.samples.vision.barcodereader.ui.camera.GraphicOverlay;
 import com.google.android.gms.vision.barcode.Barcode;
@@ -33,9 +31,11 @@ import com.google.android.gms.vision.barcode.Barcode;
  * Graphic instance for rendering barcode position, size, and ID within an associated graphic
  * overlay view.
  */
-public class BarcodeGraphic extends GraphicOverlay.Graphic {
+public class BarcodeGraphic  extends  GraphicOverlay.Graphic {
 
     private int mId;
+
+    private String distance;
 
 
     private static final int COLOR_CHOICES[] = {
@@ -52,6 +52,7 @@ public class BarcodeGraphic extends GraphicOverlay.Graphic {
 
     BarcodeGraphic(GraphicOverlay overlay) {
         super(overlay);
+
 
         mCurrentColorIndex = (mCurrentColorIndex + 1) % COLOR_CHOICES.length;
         final int selectedColor = COLOR_CHOICES[mCurrentColorIndex];
@@ -76,6 +77,10 @@ public class BarcodeGraphic extends GraphicOverlay.Graphic {
 
     public Barcode getBarcode() {
         return mBarcode;
+    }
+
+    public String getDistance() {
+        return distance;
     }
 
     /**
@@ -137,26 +142,27 @@ public class BarcodeGraphic extends GraphicOverlay.Graphic {
         String text = "";
 
         if (size_distance < 1 ) {
-            text = "About 3 meters ";
+            text = "Aproximado a 3 metros ";
         }
         if (size_distance >1 && size_distance < 2) {
-            text = "About 2 meters ";
+            text = "Aproximado a 2 metros ";
         }
         if (size_distance >= 2) {
-            text="Less 1 meter ";
+            text="Menos de 1 metro ";
         }
 
 
         //text = "Size " + String.valueOf(size_distance);
 
         if (rect.top < 400) {
-            text += "\n UP ";
-        }else {text += "\n DOWN "; }
+            text += "\n Arriba ";
+        }else {text += "\n Abajo "; }
 
         if (rect.right<300) {
-            text += "\n RIGHT ";
-        } else { text += "\n LEFT ";}
+            text += "\n Derecha ";
+        } else { text += "\n Izquierda ";}
 
+        distance = text;
 
 
         // Draws a label at the bottom of the barcode indicate the barcode value that was detected.

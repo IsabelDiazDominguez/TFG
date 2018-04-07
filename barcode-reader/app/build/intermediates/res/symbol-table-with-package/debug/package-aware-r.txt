@@ -977,12 +977,11 @@ int id transition_transform 0x7f0800b3
 int id uniform 0x7f0800b4
 int id up 0x7f0800b5
 int id useLogo 0x7f0800b6
-int id use_flash 0x7f0800b7
-int id view_offset_helper 0x7f0800b8
-int id visible 0x7f0800b9
-int id wide 0x7f0800ba
-int id withText 0x7f0800bb
-int id wrap_content 0x7f0800bc
+int id view_offset_helper 0x7f0800b7
+int id visible 0x7f0800b8
+int id wide 0x7f0800b9
+int id withText 0x7f0800ba
+int id wrap_content 0x7f0800bb
 int integer abc_config_activityDefaultDur 0x7f090000
 int integer abc_config_activityShortDur 0x7f090001
 int integer app_bar_elevation_anim_duration 0x7f090002
@@ -1129,7 +1128,6 @@ int string read_barcode 0x7f0b0044
 int string search_menu_title 0x7f0b0045
 int string status_bar_notification_info_overflow 0x7f0b0046
 int string title_activity_main 0x7f0b0047
-int string use_flash 0x7f0b0048
 int style AlertDialog_AppCompat 0x7f0c0000
 int style AlertDialog_AppCompat_Light 0x7f0c0001
 int style Animation_AppCompat_Dialog 0x7f0c0002

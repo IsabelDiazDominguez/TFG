@@ -1,9 +1,9 @@
 -- Merging decision tree log ---
 manifest
-ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:1-39:12
+ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:1-40:12
 MERGED from [com.android.support:design:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\78547fa46c6ff7d7e39782617f7ac8af\AndroidManifest.xml:17:1-31:12
 MERGED from [com.google.android.gms:play-services-vision:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-vision-9.4.0.aar\99a0e007d69cbce368b9c45a22260d5d\AndroidManifest.xml:2:1-6:12
 MERGED from [com.google.android.gms:play-services-base:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-base-9.4.0.aar\a3f4c36768200a5540dd2702fa56b925\AndroidManifest.xml:16:1-24:12
@@ -21,20 +21,20 @@ MERGED from [com.android.support:support-media-compat:26.0.0] C:\Users\IsaDD\.gr
 MERGED from [com.android.support:support-core-utils:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-core-utils-26.0.0.aar\160d3a447d87c9fdbdd1e26a26cfe190\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:support-compat:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\support-compat-26.0.0.aar\93ee93d8a3d5a05a42cbf0f38f2cf5fc\AndroidManifest.xml:17:1-31:12
 MERGED from [com.android.support:multidex:1.0.1] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\multidex-1.0.1.aar\a5381cf438b765ada2d996af6fc81955\AndroidManifest.xml:16:1-19:12
-INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:1-39:12
-INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:1-39:12
+INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:1-40:12
+INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:1-40:12
 	package
 		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:3:5-66
 		INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml
 		INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml
 	android:versionName
 		INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:1-39:12
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:1-40:12
 		INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml
 	android:versionCode
 		INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml
-		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:1-39:12
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:1-40:12
 		INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml
 	xmlns:android
 		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:2:11-69
@@ -49,7 +49,7 @@ ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest
 	android:name
 		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:8:22-62
 application
-ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:10:5-37:19
+ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:10:5-38:19
 MERGED from [com.android.support:design:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\78547fa46c6ff7d7e39782617f7ac8af\AndroidManifest.xml:25:5-29:19
 MERGED from [com.android.support:design:26.0.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\design-26.0.0.aar\78547fa46c6ff7d7e39782617f7ac8af\AndroidManifest.xml:25:5-29:19
 MERGED from [com.google.android.gms:play-services-vision:9.4.0] C:\Users\IsaDD\.gradle\caches\transforms-1\files-1.1\play-services-vision-9.4.0.aar\99a0e007d69cbce368b9c45a22260d5d\AndroidManifest.xml:5:5-20
@@ -132,6 +132,10 @@ ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest
 		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:36:13-41
 	android:name
 		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:35:19-57
+activity#com.google.android.gms.samples.vision.barcodereader.BarcodeGraphicInterface
+ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:37:9-61
+	android:name
+		ADDED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml:37:19-58
 uses-sdk
 INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
 INJECTED from C:\Users\IsaDD\AndroidApp\barcode-reader\app\src\main\AndroidManifest.xml

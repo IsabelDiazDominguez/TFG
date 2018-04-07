@@ -37,7 +37,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
 
                 // use a compound button so either checkbox or switch widgets work.
     private CompoundButton autoFocus;
-    private CompoundButton useFlash;
+   // private CompoundButton useFlash;
     private TextView statusMessage;
     private TextView barcodeValue;
 
@@ -56,7 +56,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
         barcodeValue = (TextView)findViewById(R.id.barcode_value);
 
         autoFocus = (CompoundButton) findViewById(R.id.auto_focus);
-        useFlash = (CompoundButton) findViewById(R.id.use_flash);
+        //useFlash = (CompoundButton) findViewById(R.id.use_flash);
 
         findViewById(R.id.read_barcode).setOnClickListener(this);
     }
@@ -72,9 +72,6 @@ public class MainActivity extends Activity implements View.OnClickListener {
             // launch barcode activity.
             Intent intent = new Intent(this, BarcodeCaptureActivity.class);
             intent.putExtra(BarcodeCaptureActivity.AutoFocus, autoFocus.isChecked());
-            intent.putExtra(BarcodeCaptureActivity.UseFlash, useFlash.isChecked());
-
-            Speech.Talk(mContext, "Bienvenido");
 
             startActivityForResult(intent, RC_BARCODE_CAPTURE);
         }
@@ -111,7 +108,7 @@ public class MainActivity extends Activity implements View.OnClickListener {
                     Barcode barcode = data.getParcelableExtra(BarcodeCaptureActivity.BarcodeObject);
                     statusMessage.setText(R.string.barcode_success);
                     barcodeValue.setText(barcode.displayValue);
-                    Log.d(TAG, "Barcode read: " + barcode.displayValue);
+                    //Log.d(TAG, "Barcode read: " + barcode.displayValue);
                 } else {
                     statusMessage.setText(R.string.barcode_failure);
                     Log.d(TAG, "No barcode captured, intent data is null");
@@ -124,5 +121,9 @@ public class MainActivity extends Activity implements View.OnClickListener {
         else {
             super.onActivityResult(requestCode, resultCode, data);
         }
+    }
+
+    public Context getContext () {
+        return mContext;
     }
 }
